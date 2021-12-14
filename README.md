@@ -1,4 +1,19 @@
 # UniversityApplication
+
+
+
+**Libraries**
+ - [Live Animation](https://github.com/airbnb/lottie-android)
+ - [Scalable Size units](https://github.com/intuit/sdp)
+ - [RoundedImageView](https://github.com/vinc3m1/RoundedImageView)
+ - [Firebase](https://console.firebase.google.com/)
+ - [Retrofit](https://square.github.io/retrofit/)
+
+
+
+
+
+
 **Screenshots**
 | **Splash Screen** | **Login Screen** | **Signup Screen** |
 |--|--|--|
