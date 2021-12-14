@@ -1,5 +1,15 @@
 # UniversityApplication
 
+**App Technologies**
+ - View Binding
+ - Java 
+ - CircleImageView
+ - Bottom Navigation 
+ - Fragment
+ - RoundedImageView
+ - Rotate Layout
+ - Live Animation
+ - Firebase Auth & Messaging & Database
 
 
 **Libraries**
@@ -8,6 +18,13 @@
  - [RoundedImageView](https://github.com/vinc3m1/RoundedImageView)
  - [Firebase](https://console.firebase.google.com/)
  - [Retrofit](https://square.github.io/retrofit/)
+
+
+
+**App features**
+ - Able to create your own account add personal image , send Messages to All registered users .
+ - Get news about University from Timeline Activity that controled by admins.
+ - The possibility of smart search, where you can search for any post you want by typing any letter that the name of the post contains.
 
 
 
