@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="@string/home">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/menu_home"
+                    android:icon="@drawable/home_icon"
+                    android:title="@string/home" />
+                <item
+                    android:id="@+id/menu_chat"
+                    android:icon="@drawable/teacher_icon"
+                    android:title="@string/chat" />
+
+
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/profile">
+        <menu>
+
+            <item
+                android:id="@+id/menu_profile"
+                android:icon="@drawable/profile_icon"
+                android:title="@string/profile" />
+            <item
+                android:id="@+id/menu_logout"
+                android:icon="@drawable/logout_icon"
+                android:title="@string/logout" />
+
+        </menu>
+    </item>
+    <item android:title="@string/social">
+        <menu>
+            <item
+                android:id="@+id/menu_share"
+                android:title="@string/share" />
+            <item
+                android:id="@+id/menu_about"
+                android:title="@string/about" />
+        </menu>
+    </item>
+
+</menu>

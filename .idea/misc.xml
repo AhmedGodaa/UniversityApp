@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android/Projects/UniversityApplication/app/src/main/res/drawable/back_icon.xml" value="0.19583333333333333" />
+        <entry key="..\:/Android/Projects/UniversityApplication/app/src/main/res/drawable/background_image.xml" value="0.16576576576576577" />
+        <entry key="..\:/Android/Projects/UniversityApplication/app/src/main/res/drawable/bluebackground.xml" value="0.19583333333333333" />
+        <entry key="..\:/Android/Projects/UniversityApplication/app/src/main/res/drawable/bluebackground_shape.xml" value="0.19583333333333333" />
+        <entry key="..\:/Android/Projects/UniversityApplication/app/src/main/res/drawable/buttonshape.xml" value="0.2703125" />
+        <entry key="..\:/Android/Projects/UniversityApplication/app/src/main/res/drawable/edittextshape.xml" value="0.14635416666666667" />
+        <entry key="..\:/Android/Projects/UniversityApplication/app/src/main/res/drawable/fragment_white_background_timeline.xml" value="0.19583333333333333" />
+        <entry key="..\:/Android/Projects/UniversityApplication/app/src/main/res/drawable/home_icon.xml" value="0.19583333333333333" />
+        <entry key="..\:/Android/Projects/UniversityApplication/app/src/main/res/drawable/ic_baseline_local_phone_24.xml" value="0.16576576576576577" />
+        <entry key="..\:/Android/Projects/UniversityApplication/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Android/Projects/UniversityApplication/app/src/main/res/drawable/ic_search_black_24dp.xml" value="0.1" />
+        <entry key="..\:/Android/Projects/UniversityApplication/app/src/main/res/drawable/login_icon.xml" value="0.19583333333333333" />
+        <entry key="..\:/Android/Projects/UniversityApplication/app/src/main/res/drawable/loginbackgourndwhite.xml" value="0.19583333333333333" />
+        <entry key="..\:/Android/Projects/UniversityApplication/app/src/main/res/drawable/logout_icon.xml" value="0.19583333333333333" />
+        <entry key="..\:/Android/Projects/UniversityApplication/app/src/main/res/drawable/menu_icon.xml" value="0.16576576576576577" />
+        <entry key="..\:/Android/Projects/UniversityApplication/app/src/main/res/drawable/tapshape.xml" value="0.14635416666666667" />
+        <entry key="..\:/Android/Projects/UniversityApplication/app/src/main/res/drawable/timeline_icon.xml" value="0.16576576576576577" />
+        <entry key="..\:/Android/Projects/UniversityApplication/app/src/main/res/drawable/white_rigester_login.xml" value="0.19583333333333333" />
+        <entry key="..\:/Android/Projects/UniversityApplication/app/src/main/res/drawable/whitebackground2.xml" value="0.19583333333333333" />
+        <entry key="..\:/Android/Projects/UniversityApplication/app/src/main/res/layout-v21/activity_timeline.xml" value="0.1796875" />
+        <entry key="..\:/Android/Projects/UniversityApplication/app/src/main/res/layout/activity_b.xml" value="0.264" />
+        <entry key="..\:/Android/Projects/UniversityApplication/app/src/main/res/layout/activity_chat.xml" value="0.1497777777777778" />
+        <entry key="..\:/Android/Projects/UniversityApplication/app/src/main/res/layout/activity_introduction.xml" value="0.22" />
+        <entry key="..\:/Android/Projects/UniversityApplication/app/src/main/res/layout/activity_login.xml" value="0.16666666666666666" />
+        <entry key="..\:/Android/Projects/UniversityApplication/app/src/main/res/layout/activity_login_activiy1.xml" value="0.13020833333333334" />
+        <entry key="..\:/Android/Projects/UniversityApplication/app/src/main/res/layout/activity_main.xml" value="0.28040540540540543" />
+        <entry key="..\:/Android/Projects/UniversityApplication/app/src/main/res/layout/activity_register.xml" value="0.4" />
+        <entry key="..\:/Android/Projects/UniversityApplication/app/src/main/res/layout/activity_second_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android/Projects/UniversityApplication/app/src/main/res/layout/activity_subjects.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android/Projects/UniversityApplication/app/src/main/res/layout/activity_teacher.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android/Projects/UniversityApplication/app/src/main/res/layout/activity_teacher_show.xml" value="0.32231404958677684" />
+        <entry key="..\:/Android/Projects/UniversityApplication/app/src/main/res/layout/activity_timeline.xml" value="0.22753623188405797" />
+        <entry key="..\:/Android/Projects/UniversityApplication/app/src/main/res/layout/activity_timeline2.xml" value="0.13020833333333334" />
+        <entry key="..\:/Android/Projects/UniversityApplication/app/src/main/res/layout/activity_welcome.xml" value="0.21621621621621623" />
+        <entry key="..\:/Android/Projects/UniversityApplication/app/src/main/res/layout/activity_welcome_activiy.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android/Projects/UniversityApplication/app/src/main/res/layout/fragment_blank.xml" value="0.1518018018018018" />
+        <entry key="..\:/Android/Projects/UniversityApplication/app/src/main/res/layout/fragment_chat.xml" value="0.1518018018018018" />
+        <entry key="..\:/Android/Projects/UniversityApplication/app/src/main/res/layout/fragment_login.xml" value="0.3333333333333333" />
+        <entry key="..\:/Android/Projects/UniversityApplication/app/src/main/res/layout/fragment_main.xml" value="0.16666666666666666" />
+        <entry key="..\:/Android/Projects/UniversityApplication/app/src/main/res/layout/fragment_register.xml" value="0.5" />
+        <entry key="..\:/Android/Projects/UniversityApplication/app/src/main/res/layout/fragment_subjects.xml" value="0.1796875" />
+        <entry key="..\:/Android/Projects/UniversityApplication/app/src/main/res/layout/fragment_teachers.xml" value="0.14666666666666667" />
+        <entry key="..\:/Android/Projects/UniversityApplication/app/src/main/res/layout/fragment_users.xml" value="0.1518018018018018" />
+        <entry key="..\:/Android/Projects/UniversityApplication/app/src/main/res/layout/header.xml" value="0.2546875" />
+        <entry key="..\:/Android/Projects/UniversityApplication/app/src/main/res/layout/item_container_user.xml" value="0.1518018018018018" />
+        <entry key="..\:/Android/Projects/UniversityApplication/app/src/main/res/layout/layout_post.xml" value="0.22" />
+        <entry key="..\:/Android/Projects/UniversityApplication/app/src/main/res/layout/post_layout.xml" value="0.3333333333333333" />
+        <entry key="..\:/Android/Projects/UniversityApplication/app/src/main/res/layout/recyclerview_teachers.xml" value="0.4466666666666667" />
+        <entry key="..\:/Android/Projects/UniversityApplication/app/src/main/res/layout/rv_teacher.xml" value="0.22" />
+        <entry key="..\:/Android/Projects/UniversityApplication/app/src/main/res/menu/main_menu.xml" value="0.22" />
+        <entry key="..\:/Android/Projects/UniversityApplication/app/src/main/res/menu/menu_search.xml" value="0.22" />
+        <entry key="..\:/Android/Projects/UniversityApplication/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Projects/UniversityApplication/app/src/main/res/layout/activity_introduction.xml" value="0.1" />
+        <entry key="..\:/Projects/UniversityApplication/app/src/main/res/layout/activity_login.xml" value="0.12" />
+        <entry key="..\:/Projects/UniversityApplication/app/src/main/res/layout/activity_main.xml" value="0.18796296296296297" />
+        <entry key="..\:/Projects/UniversityApplication/app/src/main/res/layout/activity_teacher_show.xml" value="0.1796875" />
+        <entry key="..\:/Projects/UniversityApplication/app/src/main/res/layout/activity_timeline.xml" value="0.1" />
+        <entry key="..\:/Projects/UniversityApplication/app/src/main/res/layout/fragment_login.xml" value="0.18796296296296297" />
+        <entry key="..\:/Projects/UniversityApplication/app/src/main/res/layout/fragment_register.xml" value="0.1" />
+        <entry key="..\:/Projects/UniversityApplication/app/src/main/res/layout/fragment_teachers.xml" value="0.1" />
+        <entry key="..\:/Projects/UniversityApplication/app/src/main/res/layout/header.xml" value="0.18796296296296297" />
+        <entry key="..\:/Projects/UniversityApplication/app/src/main/res/layout/layout_post.xml" value="0.22" />
+        <entry key="..\:/Projects/UniversityApplication/app/src/main/res/layout/post_layout.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/EGYPT_LAPTOP/Desktop/UniversityApplication/app/src/main/res/drawable-v24/background_chat_input.xml" value="0.2301801801801802" />
+        <entry key="..\:/Users/EGYPT_LAPTOP/Desktop/UniversityApplication/app/src/main/res/drawable-v24/background_content_bottom.xml" value="0.12522522522522522" />
+        <entry key="..\:/Users/EGYPT_LAPTOP/Desktop/UniversityApplication/app/src/main/res/drawable/bluebackground_shape.xml" value="0.2301801801801802" />
+        <entry key="..\:/Users/EGYPT_LAPTOP/Desktop/UniversityApplication/app/src/main/res/drawable/ic_chat.xml" value="0.2301801801801802" />
+        <entry key="..\:/Users/EGYPT_LAPTOP/Desktop/UniversityApplication/app/src/main/res/drawable/loginbackgourndwhite.xml" value="0.2301801801801802" />
+        <entry key="..\:/Users/EGYPT_LAPTOP/Desktop/UniversityApplication/app/src/main/res/drawable/personicon.xml" value="0.12522522522522522" />
+        <entry key="..\:/Users/EGYPT_LAPTOP/Desktop/UniversityApplication/app/src/main/res/layout/activity_chat.xml" value="0.2" />
+        <entry key="..\:/Users/EGYPT_LAPTOP/Desktop/UniversityApplication/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/Users/EGYPT_LAPTOP/Desktop/UniversityApplication/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/EGYPT_LAPTOP/Desktop/UniversityApplication/app/src/main/res/layout/activity_timeline.xml" value="0.21621621621621623" />
+        <entry key="..\:/Users/EGYPT_LAPTOP/Desktop/UniversityApplication/app/src/main/res/layout/fragment_chat.xml" value="0.21621621621621623" />
+        <entry key="..\:/Users/EGYPT_LAPTOP/Desktop/UniversityApplication/app/src/main/res/layout/fragment_groups.xml" value="0.21621621621621623" />
+        <entry key="..\:/Users/EGYPT_LAPTOP/Desktop/UniversityApplication/app/src/main/res/layout/fragment_main.xml" value="0.21621621621621623" />
+        <entry key="..\:/Users/EGYPT_LAPTOP/Desktop/UniversityApplication/app/src/main/res/layout/fragment_register.xml" value="0.11126126126126126" />
+        <entry key="..\:/Users/EGYPT_LAPTOP/Desktop/UniversityApplication/app/src/main/res/layout/fragment_subjects.xml" value="0.21621621621621623" />
+        <entry key="..\:/Users/EGYPT_LAPTOP/Desktop/UniversityApplication/app/src/main/res/layout/fragment_teachers.xml" value="0.21621621621621623" />
+        <entry key="..\:/Users/EGYPT_LAPTOP/Desktop/UniversityApplication/app/src/main/res/layout/fragment_timeline.xml" value="0.21621621621621623" />
+        <entry key="..\:/Users/EGYPT_LAPTOP/Desktop/UniversityApplication/app/src/main/res/layout/fragment_users.xml" value="0.25075528700906347" />
+        <entry key="..\:/Users/EGYPT_LAPTOP/Desktop/UniversityApplication/app/src/main/res/layout/item_container_received_message.xml" value="0.21621621621621623" />
+        <entry key="..\:/Users/EGYPT_LAPTOP/Desktop/UniversityApplication/app/src/main/res/layout/item_container_recent_conversation.xml" value="0.11216216216216217" />
+        <entry key="..\:/Users/EGYPT_LAPTOP/Desktop/UniversityApplication/app/src/main/res/layout/item_container_user.xml" value="0.6" />
+        <entry key="..\:/Users/EGYPT_LAPTOP/Desktop/UniversityApplication/app/src/main/res/layout/item_container_user_account.xml" value="0.4" />
+        <entry key="..\:/Users/EGYPT_LAPTOP/Desktop/UniversityApplication/app/src/main/res/layout/layout_post.xml" value="0.21621621621621623" />
+        <entry key="..\:/Users/EGYPT_LAPTOP/Desktop/UniversityApplication/app/src/main/res/layout/post_layout.xml" value="0.176" />
+        <entry key="..\:/Users/EGYPT_LAPTOP/Desktop/UniversityApplication/app/src/main/res/layout/rv_teacher.xml" value="0.21621621621621623" />
+        <entry key="..\:/Users/EGYPT_LAPTOP/Desktop/UniversityApplication/app/src/main/res/menu-v26/bottom_nav_menu.xml" value="0.12864583333333332" />
+        <entry key="..\:/Users/EGYPT_LAPTOP/Desktop/UniversityApplication/app/src/main/res/menu-v26/bottom_nav_menu_chat.xml" value="0.1375" />
+        <entry key="..\:/Users/EGYPT_LAPTOP/Desktop/UniversityApplication/app/src/main/res/menu/bottom_nav_menu.xml" value="0.536" />
+        <entry key="..\:/Users/EGYPT_LAPTOP/Desktop/UniversityApplication/app/src/main/res/menu/bottom_nav_menu_chat.xml" value="0.21621621621621623" />
+        <entry key="..\:/Users/EGYPT_LAPTOP/Desktop/UniversityApplication/app/src/main/res/menu/main_menu.xml" value="0.72" />
+        <entry key="..\:/Users/EGYPT_LAPTOP/Desktop/UniversityApplication/app/src/main/res/menu/menu_search.xml" value="0.11126126126126126" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

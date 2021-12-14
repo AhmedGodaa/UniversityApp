@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">UniversityApplication</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="navigation_drawer_open">Open Navigation drawer</string>
+    <string name="navigation_drawer_close">Close Navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Submit">Submit</string>
+    <string name="add_image">Add Image</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirmpassword">ConfirmPassword</string>
+    <string name="forget_password">Forget password</string>
+    <string name="home">Home</string>
+    <string name="subjects">Subjects</string>
+    <string name="teachers">Teachers</string>
+    <string name="profile">Profile</string>
+    <string name="logout">Logout</string>
+    <string name="social">Social</string>
+    <string name="share">Share</string>
+    <string name="about">About</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="login_to_continue">Login to continue</string>
+    <string name="sign_in">Sign In</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="name">Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="select_user">Select User</string>
+    <string name="type_a_message">Type a message</string>
+    <string name="online">Online</string>
+    <string name="floating_action_button">Floating Action Button</string>
+    <string name="groups">Groups</string>
+    <string name="users">Users</string>
+    <string name="chats">Chats</string>
+    <string name="students">Students</string>
+    <string name="account">Account</string>
+    <string name="chat">Chat</string>
+    <string name="loginbackground">LoginBackground</string>
+
+
+</resources>

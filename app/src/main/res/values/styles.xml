@@ -1,0 +1,9 @@
+<resources>
+
+    <style name="Widget.Theme.UniversityApplication.ButtonBar.Fullscreen" parent="">
+        <item name="android:background">@color/black_overlay</item>
+        <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="android:textColorPrimary">@color/white</item>
+
+    </style>
+</resources>
