@@ -1,6 +1,7 @@
 package com.example.universityapplication.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.lifecycle.Observer;
 
 import android.content.Context;
 import android.content.ContextWrapper;
@@ -10,12 +11,16 @@ import android.os.Bundle;
 
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
+import android.widget.Toast;
 
 import com.example.universityapplication.R;
 import com.example.universityapplication.databinding.ActivityWelcomeBinding;
 import com.example.universityapplication.utilities.Constants;
 import com.example.universityapplication.utilities.PreferenceManager;
 import com.google.firebase.firestore.DocumentSnapshot;
+
+import java.util.Timer;
+import java.util.TimerTask;
 
 
 public class WelcomeActivity extends AppCompatActivity {
@@ -31,8 +36,30 @@ public class WelcomeActivity extends AppCompatActivity {
         preferenceManager = new PreferenceManager(getApplicationContext());
         Animation logoAnimation = AnimationUtils.loadAnimation(this, R.anim.anim_logo);
         binding.logo.setAnimation(logoAnimation);
-        setListeners();
+        intentToMainActivity();
 
+
+    }
+
+    //    if user available send to timeline activity if not send to login activity
+    private void intentToMainActivity() {
+        new Timer().schedule(new TimerTask() {
+            @Override
+            public void run() {
+                finish();
+                setListeners();
+            }
+        }, 4000);
+    }
+
+
+    private void setListeners() {
+
+        if (preferenceManager.getBoolean(Constants.KEY_IS_SIGNED_IN)) {
+            openActivity(getApplicationContext(), TimelineActivity.class);
+        } else {
+            openActivity(getApplicationContext(), LoginActivity.class);
+        }
 
     }
 
@@ -42,16 +69,6 @@ public class WelcomeActivity extends AppCompatActivity {
         startActivity(intent);
 
 
-    }
-
-    private void setListeners() {
-        binding.logo.setOnClickListener(v -> {
-            if (preferenceManager.getBoolean(Constants.KEY_IS_SIGNED_IN)) {
-                openActivity(getApplicationContext(), TimelineActivity.class);
-            } else {
-                openActivity(getApplicationContext(), LoginActivity.class);
-            }
-        });
     }
 
 
