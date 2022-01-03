@@ -34,7 +34,7 @@
 **Screenshots**
 | **Splash Screen** | **Login Screen** | **Signup Screen** |
 |--|--|--|
-| <p align="center"> <img width="800" src="https://user-images.githubusercontent.com/73083104/146419994-5e4e5190-549c-4080-a1e7-733fc41adbac.gif" width="60%"> </p> | <p align="center"> <img src="https://user-images.githubusercontent.com/73083104/145933572-c2f859b5-2908-4614-90e5-39a47378b23e.png" width="60%"> </p> |<p align="center"> <img src="https://user-images.githubusercontent.com/73083104/145933544-0c2b1dbf-71f2-4896-a8b4-9acdeba0cca7.png" width="60%"> </p> |
+| <p align="center"> <img width="700" src="https://user-images.githubusercontent.com/73083104/146419994-5e4e5190-549c-4080-a1e7-733fc41adbac.gif" width="60%"> </p> | <p align="center"> <img src="https://user-images.githubusercontent.com/73083104/145933572-c2f859b5-2908-4614-90e5-39a47378b23e.png" width="60%"> </p> |<p align="center"> <img src="https://user-images.githubusercontent.com/73083104/145933544-0c2b1dbf-71f2-4896-a8b4-9acdeba0cca7.png" width="60%"> </p> |
 
 |  **Timeline Screen**| **Ranking Screen** |**Ranking Screen**|
 |--|--|--|
