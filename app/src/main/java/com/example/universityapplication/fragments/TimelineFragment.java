@@ -8,19 +8,14 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Toast;
 
 import com.example.universityapplication.R;
 import com.example.universityapplication.adapters.PostAdapter_RecyclerView;
 import com.example.universityapplication.databinding.FragmentTimelineBinding;
 import com.example.universityapplication.models.Post;
-import com.example.universityapplication.utilities.Constants;
 import com.example.universityapplication.utilities.PreferenceManager;
-import com.google.firebase.firestore.FirebaseFirestore;
-import com.google.firebase.firestore.QueryDocumentSnapshot;
 
 import java.util.ArrayList;
-import java.util.List;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -85,10 +80,10 @@ public class TimelineFragment extends Fragment {
 
     private void oldRecyclerView() {
         ArrayList posts = new ArrayList();
-        posts.add(new Post("hello every body and welcome", R.drawable.bill, R.drawable.microsoft));
-        posts.add(new Post("hello every body and welcome", R.drawable.elon, R.drawable.tesla));
-        posts.add(new Post("hello every body and welcome", R.drawable.jeff, R.drawable.facebook1));
-        posts.add(new Post("hello every body and welcome", R.drawable.steve, R.drawable.apple));
+        posts.add(new Post("hello every body and welcome", R.drawable.im_bill, R.drawable.im_microsoft));
+        posts.add(new Post("hello every body and welcome", R.drawable.im_elon, R.drawable.im_tesla));
+        posts.add(new Post("hello every body and welcome", R.drawable.im_jeff, R.drawable.im_facebook));
+        posts.add(new Post("hello every body and welcome", R.drawable.im_steve, R.drawable.im_apple));
         PostAdapter_RecyclerView adapter = new PostAdapter_RecyclerView(posts);
         binding.recyclerView.setAdapter(adapter);
         binding.recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));

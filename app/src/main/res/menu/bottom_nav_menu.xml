@@ -2,19 +2,19 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/menu_home"
-        android:icon="@drawable/home_icon"
+        android:icon="@drawable/ic_home"
         android:title="@string/home" />
     <item
         android:id="@+id/menu_teachers"
-        android:icon="@drawable/teacher_icon"
+        android:icon="@drawable/ic_teacher"
         android:title="@string/students" />
     <item
         android:id="@+id/menu_subjects"
-        android:icon="@drawable/subject_icon"
+        android:icon="@drawable/ic_subject"
         android:title="@string/subjects" />
     <item
         android:id="@+id/menuAccount"
-        android:icon="@drawable/profile_icon"
+        android:icon="@drawable/ic_profile"
         android:iconTint="@color/white"
         android:title="@string/account" />
 

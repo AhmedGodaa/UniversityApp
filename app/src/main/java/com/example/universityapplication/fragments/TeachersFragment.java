@@ -1,22 +1,16 @@
 package com.example.universityapplication.fragments;
 
-import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.GridLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
-import com.example.universityapplication.R;
-import com.example.universityapplication.adapters.RecyclerViewOnClickListener;
-import com.example.universityapplication.activities.TeacherShowActivity;
 import com.example.universityapplication.adapters.TeacherAdapter;
-import com.example.universityapplication.adapters.UserAdapter;
 import com.example.universityapplication.databinding.FragmentTeachersBinding;
 import com.example.universityapplication.listeners.UserListener;
 import com.example.universityapplication.models.Teacher;

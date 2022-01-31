@@ -25,7 +25,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:menu="@menu/menu_search"
-            app:navigationIcon="@drawable/menu_icon" />
+            app:navigationIcon="@drawable/ic_menu" />
 
 
         <androidx.fragment.app.FragmentContainerView

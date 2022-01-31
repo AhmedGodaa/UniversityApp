@@ -1,19 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true">
 
-    <TextView
-        android:id="@+id/textView"
+    <ImageView
+        android:id="@+id/post_background"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:gravity="center|center_horizontal"
-        android:text="TextView"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="74dp"
+        android:background="@drawable/background_login"
+        android:backgroundTint="@color/white" />
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/post_iv_personal_photo"
+        android:layout_width="78dp"
+        android:layout_height="78dp"
+        android:layout_alignEnd="@+id/post_background"
+        android:layout_alignBottom="@+id/post_background"
+        android:layout_marginEnd="279dp"
+        android:layout_marginBottom="439dp"
+        android:background="@drawable/background_personal_photo"
+        android:scaleType="centerCrop"
+        app:riv_oval="true"
+        app:srcCompat="@drawable/button_shape" />
+
+    <TextView
+        android:id="@+id/post_tv_written_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/post_iv_post_image"
+        android:layout_alignTop="@+id/post_background"
+        android:layout_alignEnd="@+id/post_background"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="295dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="21dp" />
+
+
+    <ImageView
+        android:id="@+id/post_iv_post_image"
+        android:layout_width="match_parent"
+        android:layout_height="376dp"
+        android:layout_alignTop="@+id/post_background"
+        android:layout_alignEnd="@+id/post_background"
+        android:layout_alignBottom="@+id/post_background"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/button_shape"
+        android:scaleType="centerCrop" />
+
+</RelativeLayout>

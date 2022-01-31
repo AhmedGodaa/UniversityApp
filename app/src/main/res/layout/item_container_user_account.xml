@@ -15,7 +15,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/recyclerview_teachers_iv_background" />
+        app:srcCompat="@drawable/im_background_teacher" />
 
     <com.makeramen.roundedimageview.RoundedImageView
         android:id="@+id/rv_teacher_photo"

@@ -35,8 +35,8 @@ public class LoginFragment extends Fragment {
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
-    private  FragmentLoginBinding binding ;
-    private PreferenceManager preferenceManager ;
+    private FragmentLoginBinding binding;
+    private PreferenceManager preferenceManager;
 
     public LoginFragment() {
         // Required empty public constructor
@@ -77,15 +77,12 @@ public class LoginFragment extends Fragment {
         setListeners();
 
 
-
-
-
-        return binding.getRoot() ;
+        return binding.getRoot();
     }
 
     private void setListeners() {
         binding.buttonSignIn.setOnClickListener(v -> {
-            if(isValidSignInDetails()){
+            if (isValidSignInDetails()) {
                 signIn();
 
             }
@@ -108,10 +105,12 @@ public class LoginFragment extends Fragment {
             return true;
         }
     }
+
     private void showToast(String message) {
         Toast.makeText(getContext(), message, Toast.LENGTH_SHORT).show();
 
     }
+
     private void signIn() {
         loading(true);
         FirebaseFirestore database = FirebaseFirestore.getInstance();

@@ -14,7 +14,7 @@
         android:title="@string/groups" />
     <item
         android:id="@+id/menu_account"
-        android:icon="@drawable/profile_icon"
+        android:icon="@drawable/ic_profile"
         android:iconTint="@color/white"
         android:title="@string/account" />
 

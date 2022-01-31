@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".activities.WelcomeActivity"
-    android:background="@drawable/main_background1"
+    android:background="@drawable/im_background"
     >
 
     <ImageView
@@ -14,7 +14,7 @@
         android:layout_height="350dp"
 
         android:layout_centerInParent="true"
-        android:background="@drawable/main_logo" />
+        android:background="@drawable/im_logo" />
 
 
 </RelativeLayout>
