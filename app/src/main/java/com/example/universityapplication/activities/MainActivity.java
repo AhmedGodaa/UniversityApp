@@ -18,7 +18,6 @@ import androidx.fragment.app.FragmentTransaction;
 
 import com.example.universityapplication.R;
 import com.example.universityapplication.databinding.ActivityMainBinding;
-import com.example.universityapplication.fragments.GroupsFragment;
 import com.example.universityapplication.fragments.MainFragment;
 import com.example.universityapplication.fragments.UsersFragment;
 import com.example.universityapplication.utilities.Constants;
@@ -83,14 +82,14 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             showToast("Tap2 Clicked");
             ft.commit();
         });
-        binding.tap3.setOnClickListener(v -> {
-            GroupsFragment groupsFragment = new GroupsFragment();
-            FragmentManager fm = getSupportFragmentManager();
-            FragmentTransaction ft = fm.beginTransaction();
-            ft.replace(R.id.fragmentContainer, groupsFragment);
-            showToast("Tap2 Clicked");
-            ft.commit();
-        });
+//        binding.tap3.setOnClickListener(v -> {
+//            GroupsFragment groupsFragment = new GroupsFragment();
+//            FragmentManager fm = getSupportFragmentManager();
+//            FragmentTransaction ft = fm.beginTransaction();
+//            ft.replace(R.id.fragmentContainer, groupsFragment);
+//            showToast("Tap2 Clicked");
+//            ft.commit();
+//        });
 
         binding.floatingActionButton.setOnClickListener(v -> {
             Intent intent = new Intent(getApplicationContext(), TimelineActivity.class);
@@ -175,12 +174,12 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         }
         if (item.getItemId() == R.id.menu_groups) {
-            GroupsFragment groupsFragment = new GroupsFragment();
-            FragmentManager fm = getSupportFragmentManager();
-            FragmentTransaction ft = fm.beginTransaction();
-            ft.replace(R.id.fragmentContainer, groupsFragment);
-            ft.commit();
-            binding.drawerLayout.closeDrawer(GravityCompat.START);
+//            GroupsFragment groupsFragment = new GroupsFragment();
+//            FragmentManager fm = getSupportFragmentManager();
+//            FragmentTransaction ft = fm.beginTransaction();
+//            ft.replace(R.id.fragmentContainer, groupsFragment);
+//            ft.commit();
+//            binding.drawerLayout.closeDrawer(GravityCompat.START);
         }
 
 

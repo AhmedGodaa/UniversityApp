@@ -15,61 +15,105 @@
         android:gravity="center"
         android:orientation="vertical">
 
-        <EditText
-            android:id="@+id/inputEmail"
-            android:layout_width="250dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:background="@drawable/edittextshape"
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/inputEmailLayout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="260dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="15dp"
             android:hint="@string/email"
             android:imeOptions="actionNext"
             android:importantForAutofill="no"
-            android:inputType="textEmailAddress"
-            android:paddingStart="20dp"
-            android:paddingTop="10dp"
-            android:paddingEnd="10dp"
-            android:paddingBottom="10dp"
-            android:textColor="@color/black_overlay"
-            android:textColorHint="@color/black_overlay"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.503"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            android:inputType="text"
+            android:textColorHint="@color/gray"
+            app:boxCornerRadiusBottomEnd="20dp"
 
-        <EditText
-            android:id="@+id/inputPassword"
-            android:layout_width="250dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
-            android:background="@drawable/edittextshape"
+            app:boxCornerRadiusTopEnd="20dp"
+            app:boxCornerRadiusTopStart="20dp"
+            app:counterEnabled="true"
+            app:counterMaxLength="50"
+            app:endIconMode="clear_text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2"
+            app:passwordToggleTint="@color/BlueColor"
+            app:startIconDrawable="@drawable/ic_mail"
+            app:startIconTint="@color/gray">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/inputEmail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="textEmailAddress"
+                android:maxLength="20"
+                android:textColor="@color/gray" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/inputPasswordLayout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="260dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="15dp"
             android:hint="@string/password"
             android:imeOptions="actionDone"
             android:importantForAutofill="no"
-            android:inputType="textPassword"
-            android:paddingStart="20dp"
-            android:paddingTop="10dp"
-            android:paddingEnd="10dp"
-            android:paddingBottom="10dp"
-            android:textColor="@color/black_overlay"
-            android:textColorHint="@color/black_overlay"
+            android:inputType="text"
+            android:textColorHint="@color/gray"
+            app:boxCornerRadiusBottomStart="20dp"
+            app:boxCornerRadiusTopEnd="20dp"
+            app:boxCornerRadiusTopStart="20dp"
+            app:counterEnabled="true"
+            app:endIconMode="password_toggle"
+            app:endIconTint="@color/gray"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.503"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/inputEmail" />
+            app:layout_constraintTop_toBottomOf="@+id/inputEmailLayout"
+            app:startIconDrawable="@drawable/ic_lock"
+            app:startIconTint="@color/gray">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/inputPassword"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="textPassword"
+                android:maxLength="10"
+                android:textColor="@color/gray" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:alpha="0.4"
+                android:background="@color/black" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!--        <EditText-->
+        <!--            android:id="@+id/inputPassword"-->
+        <!--            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
+        <!--            android:layout_width="250dp"-->
+        <!--            android:layout_height="45dp"-->
+        <!--            android:layout_marginTop="32dp"-->
+        <!--            android:background="@drawable/edittext_shape"-->
+        <!--            android:hint="@string/password"-->
+        <!--            android:imeOptions="actionDone"-->
+        <!--            android:importantForAutofill="no"-->
+        <!--            android:inputType="textPassword"-->
+        <!--            android:paddingStart="20dp"-->
+        <!--            android:paddingTop="10dp"-->
+        <!--            android:paddingEnd="10dp"-->
+        <!--            android:paddingBottom="10dp"-->
+        <!--            android:textColor="@color/black_overlay"-->
+        <!--            android:textColorHint="@color/black_overlay" />-->
 
         <TextView
-            android:id="@+id/Frlogin_tv_forgetpassword"
+            android:id="@+id/tvForgetPassword"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:text="@string/forget_password"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="@+id/buttonSignIn"
-            app:layout_constraintHorizontal_bias="0.493"
-            app:layout_constraintStart_toStartOf="@+id/buttonSignIn"
-            app:layout_constraintTop_toBottomOf="@+id/buttonSignIn"
-            app:layout_constraintVertical_bias="0.0" />
-
+            android:text="@string/forget_password" />
 
 
         <FrameLayout
@@ -82,24 +126,18 @@
                 android:layout_width="250dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="30dp"
-                android:background="@drawable/buttonshape"
+                android:background="@drawable/button_shape"
                 android:padding="4dp"
                 android:text="@string/Submit"
-                android:textAllCaps="false"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.503"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.104"/>
+                android:textAllCaps="true" />
+
             <ProgressBar
                 android:id="@+id/progressBar"
-                android:layout_marginTop="15dp"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:layout_gravity="center"
-                android:visibility="invisible"/>
-
+                android:layout_marginTop="15dp"
+                android:visibility="invisible" />
 
 
         </FrameLayout>

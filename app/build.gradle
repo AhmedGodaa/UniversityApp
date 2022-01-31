@@ -20,7 +20,7 @@ android {
     }
     buildFeatures{
         viewBinding true
-        dataBinding true
+
     }
 
 
@@ -34,9 +34,7 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
-    buildFeatures {
-        viewBinding true
-    }
+
 }
 
 dependencies {
@@ -93,7 +91,6 @@ dependencies {
 
     // Live Animation
     implementation 'com.airbnb.android:lottie:4.1.0'
-//    //MultiDex
-//    implementation 'androidx.multidex.multidex:2.0.1'
+
 
 }

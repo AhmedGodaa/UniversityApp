@@ -52,7 +52,7 @@ public class RegisterFragment extends Fragment {
     private String mParam1;
     private String mParam2;
     private String encodedImage;
-    private FragmentRegisterBinding binding ;
+    private FragmentRegisterBinding binding;
     private PreferenceManager preferenceManager;
 
     public RegisterFragment() {
@@ -92,8 +92,6 @@ public class RegisterFragment extends Fragment {
         binding = FragmentRegisterBinding.inflate(getLayoutInflater());
         preferenceManager = new PreferenceManager(getContext());
         setListeners();
-
-
         return binding.getRoot();
     }
 
@@ -216,6 +214,7 @@ public class RegisterFragment extends Fragment {
     private void showToast(String message) {
         Toast.makeText(getContext(), message, Toast.LENGTH_SHORT).show();
     }
+
     // we know what is loading
     private void loading(Boolean isLoading) {
         if (isLoading) {

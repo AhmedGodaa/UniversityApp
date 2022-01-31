@@ -68,12 +68,14 @@
         app:layout_constraintStart_toStartOf="@+id/viewPager"
         app:layout_constraintTop_toBottomOf="@+id/viewPager"
         app:layout_constraintVertical_bias="0.0"
+        android:visibility="gone"
         app:tint="@null" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/Frlogin_fab_facebook"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:visibility="gone"
         android:layout_marginBottom="16dp"
         android:src="@drawable/google"
         app:backgroundTint="@color/white"
@@ -87,6 +89,7 @@
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/Frlogin_fab_twitter"
         android:layout_width="wrap_content"
+        android:visibility="gone"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:src="@drawable/twitter"

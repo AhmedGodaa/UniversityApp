@@ -94,6 +94,7 @@ public class LoginFragment extends Fragment {
 
 
     private Boolean isValidSignInDetails() {
+
         if (binding.inputEmail.getText().toString().trim().isEmpty()) {
             showToast("Enter email ");
             return false;

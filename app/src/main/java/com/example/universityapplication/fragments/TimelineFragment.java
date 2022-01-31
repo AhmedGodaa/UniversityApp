@@ -4,17 +4,23 @@ import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
 import com.example.universityapplication.R;
 import com.example.universityapplication.adapters.PostAdapter_RecyclerView;
+import com.example.universityapplication.databinding.FragmentTimelineBinding;
 import com.example.universityapplication.models.Post;
+import com.example.universityapplication.utilities.Constants;
+import com.example.universityapplication.utilities.PreferenceManager;
+import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.firestore.QueryDocumentSnapshot;
 
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -31,6 +37,8 @@ public class TimelineFragment extends Fragment {
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
+    private PreferenceManager preferenceManager ;
+    private FragmentTimelineBinding binding ;
 
     public TimelineFragment() {
         // Required empty public constructor
@@ -66,19 +74,27 @@ public class TimelineFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        View view =  inflater.inflate(R.layout.fragment_timeline, container, false);
-        RecyclerView rv_timeline  = view.findViewById(R.id.Frmain_rv_timeline);
+        binding = FragmentTimelineBinding.inflate(getLayoutInflater());
+        preferenceManager = new PreferenceManager(getContext());
+        oldRecyclerView();
+
+
+
+        return  binding.getRoot() ;
+    }
+
+    private void oldRecyclerView() {
         ArrayList posts = new ArrayList();
         posts.add(new Post("hello every body and welcome", R.drawable.bill, R.drawable.microsoft));
         posts.add(new Post("hello every body and welcome", R.drawable.elon, R.drawable.tesla));
         posts.add(new Post("hello every body and welcome", R.drawable.jeff, R.drawable.facebook1));
         posts.add(new Post("hello every body and welcome", R.drawable.steve, R.drawable.apple));
         PostAdapter_RecyclerView adapter = new PostAdapter_RecyclerView(posts);
-        rv_timeline.setAdapter(adapter);
-        rv_timeline.setLayoutManager(new LinearLayoutManager(getContext()));
-
-
-        return  view ;
+        binding.recyclerView.setAdapter(adapter);
+        binding.recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
     }
+
+
+
+
 }

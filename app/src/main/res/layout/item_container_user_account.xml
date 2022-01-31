@@ -28,7 +28,7 @@
         app:layout_constraintStart_toStartOf="@+id/rv_teacher_background"
         app:layout_constraintTop_toTopOf="@+id/rv_teacher_background"
         app:riv_oval="true"
-        app:srcCompat="@drawable/buttonshape" />
+        app:srcCompat="@drawable/button_shape" />
 
     <TextView
         android:id="@+id/rv_teacher_name"

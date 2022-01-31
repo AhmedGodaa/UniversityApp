@@ -35,6 +35,7 @@ public class WelcomeActivity extends AppCompatActivity {
         setContentView(binding.getRoot());
         preferenceManager = new PreferenceManager(getApplicationContext());
         Animation logoAnimation = AnimationUtils.loadAnimation(this, R.anim.anim_logo);
+
         binding.logo.setAnimation(logoAnimation);
         intentToMainActivity();
 
