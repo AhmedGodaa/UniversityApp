@@ -13,7 +13,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:gravity="center"
         android:orientation="vertical">
 
@@ -42,97 +42,109 @@
 
         </FrameLayout>
 
-        <EditText
-            android:id="@+id/inputName"
-            android:layout_width="250dp"
-            android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="16dp"
-            android:background="@drawable/edittext_shape"
-            android:hint="@string/username"
 
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/inputNameLayout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="260dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:hint="@string/username"
             android:imeOptions="actionNext"
             android:importantForAutofill="no"
-
-
             android:inputType="text"
-            android:paddingStart="20dp"
-            android:paddingTop="10dp"
-            android:paddingEnd="10dp"
-            android:paddingBottom="10dp"
-            android:textColor="@color/black"
-            android:textColorHint="@color/black_overlay"
+            android:textColorHint="@color/gray"
+            app:boxCornerRadiusBottomEnd="20dp"
+            app:boxCornerRadiusBottomStart="20dp"
+            app:boxCornerRadiusTopEnd="20dp"
+            app:boxCornerRadiusTopStart="20dp"
+            app:counterEnabled="true"
+            app:counterMaxLength="50"
+            app:endIconMode="clear_text"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.496"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:passwordToggleTint="@color/BlueColor"
+            app:startIconDrawable="@drawable/ic_mail"
+            app:startIconTint="@color/gray">
 
-        <EditText
-            android:id="@+id/inputEmail"
-            android:layout_width="250dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/edittext_shape"
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/inputName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="textEmailAddress"
+                android:maxLength="20"
+                android:textColor="@color/gray" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/inputEmailLayout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="260dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
             android:hint="@string/email"
             android:imeOptions="actionNext"
             android:importantForAutofill="no"
             android:inputType="textEmailAddress"
-            android:paddingStart="20dp"
-            android:paddingTop="10dp"
-            android:paddingEnd="10dp"
-            android:paddingBottom="10dp"
-            android:textColor="@color/black"
-            android:textColorHint="@color/black_overlay"
+            android:textColorHint="@color/gray"
+            app:boxCornerRadiusBottomEnd="20dp"
+            app:boxCornerRadiusBottomStart="20dp"
+            app:boxCornerRadiusTopEnd="20dp"
+            app:boxCornerRadiusTopStart="20dp"
+            app:counterEnabled="true"
+            app:counterMaxLength="50"
+            app:endIconMode="clear_text"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.496"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/Frregister_et_username" />
+            app:layout_constraintTop_toBottomOf="@+id/inputNameLayout"
+            app:passwordToggleTint="@color/BlueColor"
+            app:startIconDrawable="@drawable/ic_mail"
+            app:startIconTint="@color/gray">
 
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/inputEmail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="textEmailAddress"
+                android:maxLength="20"
+                android:textColor="@color/gray" />
+        </com.google.android.material.textfield.TextInputLayout>
 
-        <EditText
-            android:id="@+id/inputPassword"
-            android:layout_width="250dp"
-            android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/edittext_shape"
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/inputPasswordLayout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="260dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
             android:hint="@string/password"
-            android:imeOptions="actionNext"
+            android:imeOptions="actionDone"
             android:importantForAutofill="no"
-            android:inputType="textPassword"
-            android:paddingStart="20dp"
-            android:paddingTop="10dp"
-            android:paddingEnd="10dp"
-            android:paddingBottom="10dp"
-            android:textColor="@color/black"
-            android:textColorHint="@color/black_overlay"
-
+            android:inputType="text"
+            android:textColorHint="@color/gray"
+            app:boxCornerRadiusBottomEnd="20dp"
+            app:boxCornerRadiusBottomStart="20dp"
+            app:boxCornerRadiusTopEnd="20dp"
+            app:boxCornerRadiusTopStart="20dp"
+            app:counterEnabled="true"
+            app:endIconMode="password_toggle"
+            app:endIconTint="@color/gray"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.496"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/Frregister_et_Email" />
+            app:layout_constraintTop_toBottomOf="@+id/inputEmailLayout"
+            app:startIconDrawable="@drawable/ic_lock"
+            app:startIconTint="@color/gray">
 
-        <!--        <EditText-->
-        <!--            android:id="@+id/inputConfirmPassword"-->
-        <!--            android:layout_width="250dp"-->
-        <!--            android:layout_height="wrap_content"-->
-        <!--            android:layout_centerHorizontal="true"-->
-        <!--            android:layout_marginTop="20dp"-->
-        <!--            android:background="@drawable/edittextshape"-->
-        <!--            android:hint="@string/confirmpassword"-->
-        <!--            android:imeOptions="actionDone"-->
-        <!--            android:importantForAutofill="no"-->
-        <!--            android:inputType="textPassword"-->
-        <!--            android:paddingStart="20dp"-->
-        <!--            android:paddingTop="10dp"-->
-        <!--            android:paddingEnd="10dp"-->
-        <!--            android:paddingBottom="10dp"-->
-        <!--            android:textColor="@color/black"-->
-        <!--            android:textColorHint="@color/black_overlay"-->
-        <!--            app:layout_constraintEnd_toEndOf="parent"-->
-        <!--            app:layout_constraintHorizontal_bias="0.496"-->
-        <!--            app:layout_constraintStart_toStartOf="parent"-->
-        <!--            app:layout_constraintTop_toBottomOf="@+id/Frregister_et_password" />-->
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/inputPassword"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="textPassword"
+                android:maxLength="10"
+                android:textColor="@color/gray" />
+        </com.google.android.material.textfield.TextInputLayout>
 
 
         <FrameLayout

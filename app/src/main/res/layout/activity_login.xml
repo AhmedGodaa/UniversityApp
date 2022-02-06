@@ -10,7 +10,7 @@
 
 
     <ImageView
-        android:id="@+id/login_iv_background"
+        android:id="@+id/background"
         android:layout_width="wrap_content"
         android:layout_height="550dp"
         android:layout_centerInParent="true"
@@ -20,13 +20,13 @@
         android:layout_marginBottom="50dp"
         android:alpha="0.9"
         android:background="@drawable/background_login"
+        android:contentDescription="@string/loginbackground"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.506"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.501"
-        android:contentDescription="@string/loginbackground" />
+        app:layout_constraintVertical_bias="0.501" />
 
 
     <com.google.android.material.tabs.TabLayout
@@ -36,10 +36,10 @@
         android:background="@drawable/shape_tap"
         android:layoutMode="opticalBounds"
         android:splitMotionEvents="true"
-        app:layout_constraintBottom_toBottomOf="@+id/login_iv_background"
-        app:layout_constraintEnd_toEndOf="@+id/login_iv_background"
-        app:layout_constraintStart_toStartOf="@+id/login_iv_background"
-        app:layout_constraintTop_toTopOf="@+id/login_iv_background"
+        app:layout_constraintBottom_toBottomOf="@+id/background"
+        app:layout_constraintEnd_toEndOf="@+id/background"
+        app:layout_constraintStart_toStartOf="@+id/background"
+        app:layout_constraintTop_toTopOf="@+id/background"
         app:layout_constraintVertical_bias="0.043">
 
     </com.google.android.material.tabs.TabLayout>
@@ -49,37 +49,36 @@
         android:layout_width="339dp"
         android:layout_height="364dp"
         android:layout_marginBottom="16dp"
-        app:layout_constraintBottom_toBottomOf="@+id/login_iv_background"
-        app:layout_constraintEnd_toEndOf="@+id/login_iv_background"
-        app:layout_constraintStart_toStartOf="@+id/login_iv_background"
+        app:layout_constraintBottom_toBottomOf="@+id/background"
+        app:layout_constraintEnd_toEndOf="@+id/background"
+        app:layout_constraintStart_toStartOf="@+id/background"
         app:layout_constraintTop_toBottomOf="@+id/loginTab"
         app:layout_constraintVertical_bias="0.106" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/Frlogin_fab_google"
+        android:id="@+id/btnFacebook"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:src="@drawable/im_facebook"
         app:backgroundTint="@color/white"
-        app:layout_constraintBottom_toBottomOf="@+id/login_iv_background"
-        app:layout_constraintEnd_toStartOf="@+id/Frlogin_fab_facebook"
+        app:layout_constraintBottom_toBottomOf="@+id/background"
+        app:layout_constraintEnd_toStartOf="@+id/btnGoogle"
         app:layout_constraintHorizontal_bias="0.489"
         app:layout_constraintStart_toStartOf="@+id/viewPager"
         app:layout_constraintTop_toBottomOf="@+id/viewPager"
         app:layout_constraintVertical_bias="0.0"
-        android:visibility="gone"
+
         app:tint="@null" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/Frlogin_fab_facebook"
+        android:id="@+id/btnGoogle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:visibility="gone"
         android:layout_marginBottom="16dp"
         android:src="@drawable/google"
         app:backgroundTint="@color/white"
-        app:layout_constraintBottom_toBottomOf="@+id/login_iv_background"
+        app:layout_constraintBottom_toBottomOf="@+id/background"
         app:layout_constraintEnd_toEndOf="@+id/viewPager"
         app:layout_constraintStart_toStartOf="@+id/viewPager"
         app:layout_constraintTop_toBottomOf="@+id/viewPager"
@@ -87,17 +86,16 @@
         app:tint="@null" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/Frlogin_fab_twitter"
+        android:id="@+id/btnTwitter"
         android:layout_width="wrap_content"
-        android:visibility="gone"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:src="@drawable/im_twitter"
         app:backgroundTint="@color/white"
-        app:layout_constraintBottom_toBottomOf="@+id/login_iv_background"
+        app:layout_constraintBottom_toBottomOf="@+id/background"
         app:layout_constraintEnd_toEndOf="@+id/viewPager"
         app:layout_constraintHorizontal_bias="0.505"
-        app:layout_constraintStart_toEndOf="@+id/Frlogin_fab_facebook"
+        app:layout_constraintStart_toEndOf="@+id/btnGoogle"
         app:layout_constraintTop_toBottomOf="@+id/viewPager"
         app:layout_constraintVertical_bias="0.0"
         app:tint="@null" />

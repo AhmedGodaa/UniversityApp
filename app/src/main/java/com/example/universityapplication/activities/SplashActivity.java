@@ -23,7 +23,7 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 
-public class WelcomeActivity extends AppCompatActivity {
+public class SplashActivity extends AppCompatActivity {
     private ActivityWelcomeBinding binding;
     private PreferenceManager preferenceManager;
 
